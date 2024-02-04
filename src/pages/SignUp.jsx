@@ -54,13 +54,13 @@ function SignUp() {
           <p className='pageHeader'>Welcome Back!</p>
         </header>
 
-        <form onSubmit={onSubmit}>
+        <form>
           <input
             type='text'
             className='nameInput'
             placeholder='Name'
             id='name'
-            value={name}
+            value='name'
             onChange={onChange}
           />
 

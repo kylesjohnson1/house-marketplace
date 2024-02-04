@@ -54,7 +54,7 @@ function SignIn() {
           <p className='pageHeader'>Welcome Back!</p>
         </header>
 
-        <form onSubmit={onSubmit}>
+        <form>
           <input
             type='email'
             className='emailInput'
