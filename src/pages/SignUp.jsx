@@ -10,7 +10,7 @@ import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRig
 import visibilityIcon from '../assets/svg/visibilityIcon.svg'
 import { setDoc, doc, serverTimestamp } from 'firebase/firestore'
 import { toast } from 'react-toastify'
-//import OAuth from '../components/OAuth'
+import OAuth from '../components/OAuth'
 //import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 
 function SignUp() {
@@ -127,7 +127,7 @@ function SignUp() {
           </div>
         </form>
 
-        {/* Google OAuth*/}
+        <OAuth />
 
         <Link to='/sign-in' className='registerLink'>
           Sign In Instead
